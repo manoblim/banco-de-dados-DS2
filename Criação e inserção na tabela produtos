@@ -1,0 +1,26 @@
+--criando a tabela produtos
+
+CREATE TABLE produtos (
+    produtoid INTEGER PRIMARY KEY,
+    nomeproduto TEXT,
+    categoria TEXT,
+    preco REAL,
+    estoque_inicial INTEGER
+);
+
+-- Inserção de itens na tabela produtos
+INSERT INTO produtos VALUES (1, 'Coxinha', 'Salgado', 7.50, 20);
+INSERT INTO produtos VALUES (2, 'Pao de queijo', 'Salgado', 6.00, 25);
+INSERT INTO produtos VALUES (3, 'Suco de laranja', 'Bebida', 8.00, 15);
+INSERT INTO produtos VALUES (4, 'Refrigerante lata', 'Bebida', 6.50, 30);
+INSERT INTO produtos VALUES (5, 'Agua mineral', 'Bebida', 4.00, 40);
+INSERT INTO produtos VALUES (6, 'Chocolate', 'Doce', 5.50, 18);
+INSERT INTO produtos VALUES (7, 'Bala', 'Doce', 0.50, 100);
+INSERT INTO produtos VALUES (8, 'Biscoito', 'Doce', 3.50, 35);
+INSERT INTO produtos VALUES (9, 'Sanduiche', 'Natural', 10.00, 12);
+INSERT INTO produtos VALUES (10, 'Maca', 'Fruta', 3.00, 22);
+INSERT INTO produtos VALUES (11, 'Pastel', 'Salgado', 9.00, 20);
+INSERT INTO produtos VALUES (12, 'Cookie', 'Doce', 4.00, 15);
+INSERT INTO produtos VALUES (13, 'Suco de uva', 'Bebida', 7.00, 18);
+INSERT INTO produtos VALUES (14, 'Barra de cereal', 'Doce', 3.50, 40);
+INSERT INTO produtos VALUES (15, 'Salada de frutas', 'Fruta', 8.50, 10);
